@@ -1,8 +1,8 @@
 jQuery(document).ready(function ($) {
     $('#wpdbdemo-newsletter-form').on('submit', function (e) {
         e.preventDefault();
-        var $form = $(this);
-        var data = {
+        const $form = $(this);
+        const data = {
             action: 'wpdbdemo_subscribe',
             nonce: wpdbdemo_ajax.nonce,
             name: $form.find('[name="name"]').val(),
