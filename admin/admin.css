@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.wpdbdemo-admin {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  padding: 20px 0;
+}
+.wpdbdemo-admin h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.wpdbdemo-admin table.widefat {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+.wpdbdemo-admin th,
+.wpdbdemo-admin td {
+  padding: 12px 10px;
+  font-size: 1rem;
+}
+.wpdbdemo-admin th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+.wpdbdemo-admin tr:nth-child(even) {
+  background: #f9fafb;
+}
+.wpdbdemo-admin tr:hover {
+  background: #eaf6ff;
+}
